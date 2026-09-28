@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+##  Descripción del Proyecto
 Aplicación en Java orientada a objetos organizada con **Interfaces**, **Clases Abstractas** y el **Patrón Strategy** para calcular la comisión de ventas de un empleado.
 
 ### 📐 Arquitectura y Patrones Aplicados
@@ -24,7 +24,7 @@ Aplicación en Java orientada a objetos organizada con **Interfaces**, **Clases 
 
 ---
 
-## 🚀 Compilación y Ejecución
+##  Compilación y Ejecución
 
 ### Desde Terminal (PowerShell / CMD / Bash):
 ```bash
@@ -37,7 +37,7 @@ java -cp bin Main
 
 ---
 
-## 🌿 Flujo Git y Gestión de Ramas
+## Flujo Git y Gestión de Ramas
 - **Rama `main`**: Contiene la implementación base con `ComisionEstandar` por defecto.
 - **Rama `feature/comision-personalizada`**: Asigna la estrategia `ComisionPersonalizada` en `Main.java`.
 - **Fusión y resolución de conflicto**: Se integró `feature/comision-personalizada` en `main` resolviendo el conflicto manualmente en `Main.java` y preservando la comisión personalizada con el commit:
