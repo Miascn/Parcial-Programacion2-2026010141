@@ -9,7 +9,7 @@
 ##  Descripción del Proyecto
 Aplicación en Java orientada a objetos organizada con **Interfaces**, **Clases Abstractas** y el **Patrón Strategy** para calcular la comisión de ventas de un empleado.
 
-### 📐 Arquitectura y Patrones Aplicados
+###  Arquitectura y Patrones Aplicados
 1. **Patrón Strategy (`EstrategiaComision`)**:
    - `ComisionEstandar`: Retorna el 5% de la venta total.
    - `ComisionPersonalizada`: Retorna el (5 + N)% de la venta, donde N es la cantidad de letras del primer nombre (`"Josue"` -> 5 letras -> N = 5 -> Porcentaje = 10%).
